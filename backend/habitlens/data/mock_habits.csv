@@ -1,0 +1,366 @@
+Date,Day,Mood,Energy Level,Gym,Day Type,Reading,Sleep Hours,Games Played,Music Related,Custom Activities
+2025-07-17,Thursday,Meh,High,"['Arms Day', 'Cardio']",Weekend,True,7.4,[],"['Recording', 'Piano', 'Vocals']","['Meditation', 'Cooking', 'Dinner with Cami']"
+2025-07-16,Wednesday,Great,High,"['Back Day', 'Chest Day']",Classes,False,7.5,['Chess'],['Vocals'],['Hangout with Cami']
+2025-07-15,Tuesday,Neutral,Medium,[],Office,True,7.0,"[""Baldur's Gate""]","['Piano', 'Practice']",['Cooking']
+2025-07-14,Monday,Great,Medium,[],Home office,True,7.1,"['Zelda', 'Chess']",[],"['Cooking', 'Dinner with Cami', 'Hangout with Cami']"
+2025-07-13,Sunday,Great,High,[],Weekend,True,6.6,[],"['Vocals', 'Guitar', 'Recording']",[]
+2025-07-12,Saturday,Meh,High,['Cardio'],Weekend,True,9.0,"['Chess', ""Baldur's Gate""]",['Listening'],"['Hangout with Cami', 'Cooking']"
+2025-07-11,Friday,Meh,High,[],Weekend,True,6.7,['Zelda'],"['Listening', 'Guitar']",[]
+2025-07-10,Thursday,Good,High,[],Office,False,5.2,[],['Listening'],"['Dinner with Cami', 'Work in HabitLens', 'Hangout with Cami']"
+2025-07-09,Wednesday,Great,Very High,[],Office,False,8.0,['Zelda'],[],"['Hangout with Cami', 'Dinner with Cami', 'Cooking']"
+2025-07-08,Tuesday,Amazing,Medium,['Back Day'],Classes,True,6.8,['Clash Royale'],"['Recording', 'Listening', 'Practice']","['Work in HabitLens', 'Hangout with Cami']"
+2025-07-07,Monday,Neutral,Low,['Chest Day'],Classes,True,7.3,[],['Vocals'],[]
+2025-07-06,Sunday,Meh,High,[],Weekend,True,9.0,"['Zelda', 'Clash Royale']",[],"['Work in HabitLens', 'Cooking']"
+2025-07-05,Saturday,Good,Medium,['Chest Day'],Weekend,True,7.3,[],[],['Meditation']
+2025-07-04,Friday,Neutral,High,[],Home office,True,6.5,"[""Baldur's Gate"", 'Chess']","['Recording', 'Guitar', 'Practice']","['Cooking', 'Work in HabitLens', 'Dinner with Cami']"
+2025-07-03,Thursday,Amazing,Very High,['Legs Day'],Office,True,7.3,['Zelda'],['Vocals'],[]
+2025-07-02,Wednesday,Neutral,Medium,[],Office,True,6.8,[],['Listening'],"['Cooking', 'Work in HabitLens', 'Dinner with Cami']"
+2025-07-01,Tuesday,Great,Medium,"['Arms Day', 'Chest Day']",Office,False,7.7,[],"['Practice', 'Vocals']",[]
+2025-06-30,Monday,Terrible,High,[],Weekend,False,5.8,"['Chess', 'Zelda']","['Bass', 'Recording', 'Composition']",[]
+2025-06-29,Sunday,Neutral,Very Low,"['Legs Day', 'Chest Day']",Weekend,False,5.8,[],"['Bass', 'Composition', 'Recording']","['Cooking', 'Work in HabitLens']"
+2025-06-28,Saturday,Meh,Medium,"['Chest Day', 'Cardio']",Weekend,False,6.3,[],[],"['Cooking', 'Work in HabitLens']"
+2025-06-27,Friday,Neutral,High,['Cardio'],Office,False,7.3,"['Zelda', ""Baldur's Gate""]","['Recording', 'Bass']",[]
+2025-06-26,Thursday,Good,Medium,"['Arms Day', 'Cardio']",Classes,True,7.7,"['Clash Royale', 'Zelda']","['Guitar', 'Composition', 'Recording']","['Dinner with Cami', 'Meditation', 'Work in HabitLens']"
+2025-06-25,Wednesday,Good,Very Low,[],Office,False,7.1,['Zelda'],"['Recording', 'Piano', 'Listening']","['Work in HabitLens', 'Meditation', 'Dinner with Cami']"
+2025-06-24,Tuesday,Great,High,['Legs Day'],Classes,False,5.9,[],['Piano'],"['Cooking', 'Dinner with Cami']"
+2025-06-23,Monday,Great,High,"['Legs Day', 'Cardio']",Classes,True,6.7,"[""Baldur's Gate"", 'Chess']",['Bass'],['Hangout with Cami']
+2025-06-22,Sunday,Good,Low,[],Weekend,True,6.3,['Chess'],['Piano'],['Meditation']
+2025-06-21,Saturday,Good,High,['Cardio'],Weekend,True,7.6,"['Clash Royale', 'Zelda']","['Bass', 'Piano', 'Composition']",[]
+2025-06-20,Friday,Neutral,High,"['Legs Day', 'Cardio']",Office,False,7.7,"['Chess', 'Clash Royale']","['Composition', 'Vocals', 'Piano']","['Dinner with Cami', 'Hangout with Cami']"
+2025-06-19,Thursday,Neutral,Medium,"['Legs Day', 'Back Day']",Home office,True,9.0,[],[],"['Work in HabitLens', 'Dinner with Cami', 'Meditation']"
+2025-06-18,Wednesday,Neutral,Medium,['Arms Day'],Home office,False,5.4,"['Chess', 'Clash Royale']",[],"['Hangout with Cami', 'Meditation', 'Cooking']"
+2025-06-17,Tuesday,Sad,Medium,[],Office,False,8.2,[],[],['Meditation']
+2025-06-16,Monday,Good,High,['Back Day'],Office,True,5.9,"['Clash Royale', ""Baldur's Gate""]",['Listening'],[]
+2025-06-15,Sunday,Neutral,Very High,[],Weekend,True,6.1,"['Chess', ""Baldur's Gate""]","['Guitar', 'Practice', 'Piano']",[]
+2025-06-14,Saturday,Good,Very Low,"['Back Day', 'Legs Day']",Weekend,True,7.6,"['Zelda', ""Baldur's Gate""]",['Listening'],['Dinner with Cami']
+2025-06-13,Friday,Great,High,[],Office,False,5.5,['Zelda'],"['Bass', 'Vocals']",['Dinner with Cami']
+2025-06-12,Thursday,Great,Low,['Arms Day'],Weekend,True,5.1,[],['Vocals'],"['Cooking', 'Meditation']"
+2025-06-11,Wednesday,Great,High,[],Classes,False,7.1,['Clash Royale'],"['Bass', 'Practice', 'Piano']","['Cooking', 'Hangout with Cami']"
+2025-06-10,Tuesday,Great,High,"['Legs Day', 'Arms Day']",Home office,False,7.8,"[""Baldur's Gate"", 'Clash Royale']","['Piano', 'Recording']","['Work in HabitLens', 'Meditation']"
+2025-06-09,Monday,Good,High,[],Classes,False,7.4,"['Zelda', ""Baldur's Gate""]",[],"['Hangout with Cami', 'Meditation', 'Cooking']"
+2025-06-08,Sunday,Neutral,High,[],Weekend,True,5.2,[],"['Recording', 'Bass']","['Work in HabitLens', 'Hangout with Cami', 'Dinner with Cami']"
+2025-06-07,Saturday,Great,Medium,"['Legs Day', 'Arms Day']",Weekend,False,7.5,[],"['Recording', 'Practice']",['Work in HabitLens']
+2025-06-06,Friday,Great,Medium,"['Legs Day', 'Arms Day']",Home office,True,6.4,"['Zelda', ""Baldur's Gate""]",['Recording'],[]
+2025-06-05,Thursday,Neutral,Medium,[],Weekend,True,8.1,"[""Baldur's Gate"", 'Zelda']","['Composition', 'Guitar', 'Recording']","['Hangout with Cami', 'Cooking']"
+2025-06-04,Wednesday,Good,Medium,"['Chest Day', 'Back Day']",Classes,True,9.0,[],"['Bass', 'Practice']","['Cooking', 'Meditation']"
+2025-06-03,Tuesday,Great,Low,[],Office,False,5.5,['Clash Royale'],['Bass'],['Cooking']
+2025-06-02,Monday,Great,High,[],Weekend,True,7.2,['Chess'],['Practice'],"['Work in HabitLens', 'Dinner with Cami']"
+2025-06-01,Sunday,Neutral,High,['Legs Day'],Weekend,True,7.7,[],"['Practice', 'Piano']",['Work in HabitLens']
+2025-05-31,Saturday,Neutral,High,"['Legs Day', 'Chest Day']",Weekend,False,4.9,"['Chess', 'Zelda']",['Piano'],"['Dinner with Cami', 'Hangout with Cami', 'Work in HabitLens']"
+2025-05-30,Friday,Neutral,Medium,[],Classes,True,6.9,[],"['Piano', 'Composition', 'Bass']","['Cooking', 'Hangout with Cami', 'Work in HabitLens']"
+2025-05-29,Thursday,Neutral,High,"['Back Day', 'Cardio']",Weekend,False,8.6,"['Clash Royale', 'Zelda']","['Guitar', 'Practice', 'Piano']",[]
+2025-05-28,Wednesday,Sad,Low,['Cardio'],Office,True,6.9,"[""Baldur's Gate""]","['Recording', 'Practice', 'Bass']","['Hangout with Cami', 'Meditation', 'Cooking']"
+2025-05-27,Tuesday,Great,Low,[],Home office,True,6.9,[],"['Vocals', 'Piano']",[]
+2025-05-26,Monday,Amazing,High,[],Office,True,5.7,"['Zelda', 'Clash Royale']","['Composition', 'Listening']","['Dinner with Cami', 'Work in HabitLens', 'Meditation']"
+2025-05-25,Sunday,Meh,Very Low,['Chest Day'],Weekend,True,6.9,[],[],[]
+2025-05-24,Saturday,Neutral,Medium,[],Weekend,False,7.2,"[""Baldur's Gate""]","['Listening', 'Recording']",['Meditation']
+2025-05-23,Friday,Neutral,Very High,[],Office,False,7.5,"['Zelda', 'Clash Royale']","['Bass', 'Practice']",['Cooking']
+2025-05-22,Thursday,Neutral,Medium,"['Legs Day', 'Arms Day']",Home office,True,8.8,['Zelda'],[],"['Hangout with Cami', 'Work in HabitLens']"
+2025-05-21,Wednesday,Sad,Low,"['Cardio', 'Back Day']",Classes,False,8.2,[],"['Bass', 'Vocals']","['Hangout with Cami', 'Cooking']"
+2025-05-20,Tuesday,Neutral,Very High,"['Cardio', 'Chest Day']",Home office,True,7.4,['Chess'],[],[]
+2025-05-19,Monday,Neutral,High,"['Cardio', 'Chest Day']",Classes,True,6.6,[],['Guitar'],"['Dinner with Cami', 'Cooking', 'Work in HabitLens']"
+2025-05-18,Sunday,Good,Medium,['Legs Day'],Weekend,True,7.8,['Zelda'],['Bass'],[]
+2025-05-17,Saturday,Great,Low,['Arms Day'],Weekend,False,8.6,"['Zelda', ""Baldur's Gate""]",[],['Work in HabitLens']
+2025-05-16,Friday,Neutral,Medium,['Legs Day'],Home office,True,6.3,['Clash Royale'],"['Recording', 'Composition', 'Bass']",[]
+2025-05-15,Thursday,Meh,Low,[],Office,False,5.5,"[""Baldur's Gate""]","['Practice', 'Vocals', 'Bass']",['Meditation']
+2025-05-14,Wednesday,Meh,High,[],Classes,True,8.3,[],['Vocals'],['Work in HabitLens']
+2025-05-13,Tuesday,Good,Very Low,"['Chest Day', 'Cardio']",Classes,True,8.0,[],['Practice'],['Dinner with Cami']
+2025-05-12,Monday,Great,Medium,[],Office,False,8.3,['Zelda'],[],[]
+2025-05-11,Sunday,Meh,Medium,['Back Day'],Weekend,True,8.1,[],['Composition'],"['Meditation', 'Cooking']"
+2025-05-10,Saturday,Amazing,Medium,[],Weekend,True,7.8,[],"['Recording', 'Composition', 'Piano']",['Work in HabitLens']
+2025-05-09,Friday,Sad,High,[],Office,True,7.6,['Chess'],"['Recording', 'Practice']",[]
+2025-05-08,Thursday,Great,Medium,[],Classes,False,6.7,"['Zelda', ""Baldur's Gate""]","['Piano', 'Listening']",['Meditation']
+2025-05-07,Wednesday,Neutral,High,"['Legs Day', 'Cardio']",Weekend,True,6.0,['Chess'],"['Vocals', 'Bass']",[]
+2025-05-06,Tuesday,Neutral,High,[],Home office,True,7.2,[],[],"['Hangout with Cami', 'Cooking']"
+2025-05-05,Monday,Neutral,Medium,[],Office,True,6.1,[],"['Guitar', 'Bass', 'Listening']","['Hangout with Cami', 'Dinner with Cami']"
+2025-05-04,Sunday,Great,Medium,"['Legs Day', 'Arms Day']",Weekend,False,9.0,[],"['Recording', 'Guitar', 'Composition']","['Hangout with Cami', 'Meditation']"
+2025-05-03,Saturday,Good,Very High,[],Weekend,True,7.7,[],['Practice'],"['Cooking', 'Work in HabitLens']"
+2025-05-02,Friday,Great,High,"['Chest Day', 'Legs Day']",Office,False,7.1,['Clash Royale'],"['Practice', 'Listening', 'Vocals']","['Cooking', 'Meditation']"
+2025-05-01,Thursday,Meh,High,[],Home office,True,6.9,[],"['Composition', 'Piano', 'Vocals']",[]
+2025-04-30,Wednesday,Good,Low,['Arms Day'],Classes,True,5.3,[],"['Guitar', 'Composition', 'Listening']",[]
+2025-04-29,Tuesday,Great,High,['Arms Day'],Classes,True,6.5,[],['Practice'],['Work in HabitLens']
+2025-04-28,Monday,Meh,Medium,['Cardio'],Home office,False,7.6,['Chess'],['Listening'],"['Hangout with Cami', 'Meditation', 'Dinner with Cami']"
+2025-04-27,Sunday,Great,Low,[],Weekend,False,8.3,"['Chess', 'Zelda']",['Guitar'],"['Hangout with Cami', 'Work in HabitLens', 'Meditation']"
+2025-04-26,Saturday,Great,High,['Legs Day'],Weekend,True,6.9,['Chess'],"['Bass', 'Recording', 'Practice']",['Cooking']
+2025-04-25,Friday,Good,Medium,['Chest Day'],Home office,True,8.4,"['Clash Royale', 'Chess']","['Piano', 'Recording']",['Dinner with Cami']
+2025-04-24,Thursday,Great,High,"['Back Day', 'Legs Day']",Office,False,6.2,"[""Baldur's Gate"", 'Clash Royale']",[],"['Meditation', 'Hangout with Cami', 'Dinner with Cami']"
+2025-04-23,Wednesday,Meh,High,"['Legs Day', 'Chest Day']",Home office,False,6.5,"[""Baldur's Gate""]",['Vocals'],"['Dinner with Cami', 'Work in HabitLens']"
+2025-04-22,Tuesday,Amazing,Very Low,[],Office,True,6.5,"[""Baldur's Gate""]",['Practice'],"['Hangout with Cami', 'Meditation']"
+2025-04-21,Monday,Good,Medium,[],Office,True,5.9,['Zelda'],"['Composition', 'Piano']",['Cooking']
+2025-04-20,Sunday,Meh,Medium,"['Legs Day', 'Back Day']",Weekend,True,7.8,"['Zelda', ""Baldur's Gate""]","['Practice', 'Bass', 'Guitar']",[]
+2025-04-19,Saturday,Good,High,[],Weekend,True,6.7,"['Chess', 'Zelda']",[],"['Hangout with Cami', 'Meditation', 'Work in HabitLens']"
+2025-04-18,Friday,Amazing,Low,['Cardio'],Office,False,7.1,['Zelda'],"['Guitar', 'Recording']",['Cooking']
+2025-04-17,Thursday,Good,Medium,[],Classes,True,7.0,['Chess'],['Recording'],[]
+2025-04-16,Wednesday,Neutral,Medium,"['Legs Day', 'Arms Day']",Classes,False,6.3,['Chess'],[],[]
+2025-04-15,Tuesday,Meh,Medium,"['Legs Day', 'Back Day']",Home office,False,7.8,"['Chess', 'Zelda']","['Vocals', 'Composition']","['Work in HabitLens', 'Hangout with Cami', 'Meditation']"
+2025-04-14,Monday,Sad,Medium,[],Office,False,6.9,[],"['Composition', 'Guitar', 'Vocals']","['Dinner with Cami', 'Cooking']"
+2025-04-13,Sunday,Good,High,"['Cardio', 'Chest Day']",Weekend,True,7.8,[],"['Practice', 'Vocals', 'Bass']","['Hangout with Cami', 'Cooking', 'Meditation']"
+2025-04-12,Saturday,Meh,Medium,['Cardio'],Weekend,False,5.0,"[""Baldur's Gate"", 'Chess']",[],"['Dinner with Cami', 'Work in HabitLens']"
+2025-04-11,Friday,Neutral,Low,['Arms Day'],Home office,False,6.5,['Zelda'],"['Bass', 'Guitar']","['Meditation', 'Cooking', 'Dinner with Cami']"
+2025-04-10,Thursday,Good,High,[],Office,True,8.1,[],"['Vocals', 'Practice']","['Cooking', 'Dinner with Cami']"
+2025-04-09,Wednesday,Neutral,High,[],Home office,False,7.4,[],[],[]
+2025-04-08,Tuesday,Sad,High,['Legs Day'],Office,True,6.3,['Zelda'],[],['Hangout with Cami']
+2025-04-07,Monday,Good,Very High,['Legs Day'],Office,True,6.9,"[""Baldur's Gate""]",[],['Meditation']
+2025-04-06,Sunday,Good,Medium,['Arms Day'],Weekend,False,6.0,['Zelda'],"['Piano', 'Recording', 'Composition']","['Work in HabitLens', 'Meditation']"
+2025-04-05,Saturday,Meh,High,"['Legs Day', 'Back Day']",Weekend,True,6.5,"['Clash Royale', ""Baldur's Gate""]","['Practice', 'Piano', 'Listening']","['Meditation', 'Cooking']"
+2025-04-04,Friday,Great,Medium,['Legs Day'],Office,True,8.5,['Chess'],['Recording'],"['Dinner with Cami', 'Work in HabitLens']"
+2025-04-03,Thursday,Amazing,Low,['Chest Day'],Classes,False,8.2,[],['Piano'],['Hangout with Cami']
+2025-04-02,Wednesday,Good,Low,"['Chest Day', 'Cardio']",Classes,True,7.8,"[""Baldur's Gate""]",['Practice'],[]
+2025-04-01,Tuesday,Great,Low,"['Legs Day', 'Chest Day']",Home office,True,4.6,[],"['Piano', 'Composition', 'Recording']",[]
+2025-03-31,Monday,Neutral,Medium,['Back Day'],Home office,False,6.5,['Clash Royale'],"['Bass', 'Recording', 'Guitar']",['Meditation']
+2025-03-30,Sunday,Neutral,Medium,['Cardio'],Weekend,True,6.5,[],"['Recording', 'Bass']",[]
+2025-03-29,Saturday,Neutral,Low,"['Cardio', 'Legs Day']",Weekend,False,6.4,['Clash Royale'],"['Guitar', 'Bass', 'Composition']",['Cooking']
+2025-03-28,Friday,Great,Medium,[],Home office,True,7.5,['Chess'],[],"['Meditation', 'Dinner with Cami']"
+2025-03-27,Thursday,Great,Very High,"['Back Day', 'Cardio']",Office,False,7.8,[],['Recording'],[]
+2025-03-26,Wednesday,Neutral,Low,[],Office,False,7.5,['Chess'],"['Piano', 'Listening', 'Guitar']",[]
+2025-03-25,Tuesday,Great,Low,[],Classes,False,6.5,"['Chess', 'Zelda']",['Listening'],"['Dinner with Cami', 'Work in HabitLens', 'Cooking']"
+2025-03-24,Monday,Amazing,Low,"['Chest Day', 'Back Day']",Home office,False,4.9,['Chess'],"['Recording', 'Composition', 'Guitar']","['Meditation', 'Cooking', 'Dinner with Cami']"
+2025-03-23,Sunday,Sad,Medium,[],Weekend,True,7.9,['Chess'],[],[]
+2025-03-22,Saturday,Good,High,['Back Day'],Weekend,True,8.3,[],['Guitar'],"['Meditation', 'Hangout with Cami', 'Dinner with Cami']"
+2025-03-21,Friday,Meh,High,['Legs Day'],Office,True,8.3,[],['Listening'],['Work in HabitLens']
+2025-03-20,Thursday,Great,Low,"['Chest Day', 'Arms Day']",Office,True,5.6,[],"['Listening', 'Guitar']",['Dinner with Cami']
+2025-03-19,Wednesday,Great,Medium,['Chest Day'],Office,False,6.2,"['Clash Royale', ""Baldur's Gate""]","['Vocals', 'Composition', 'Piano']","['Cooking', 'Dinner with Cami', 'Hangout with Cami']"
+2025-03-18,Tuesday,Amazing,Medium,['Chest Day'],Home office,True,5.1,"['Zelda', 'Chess']","['Practice', 'Bass', 'Recording']","['Meditation', 'Hangout with Cami', 'Work in HabitLens']"
+2025-03-17,Monday,Neutral,Medium,[],Office,False,6.7,[],"['Practice', 'Piano', 'Recording']","['Work in HabitLens', 'Dinner with Cami']"
+2025-03-16,Sunday,Good,High,['Legs Day'],Weekend,False,5.9,"['Chess', 'Clash Royale']",['Vocals'],"['Cooking', 'Dinner with Cami', 'Work in HabitLens']"
+2025-03-15,Saturday,Meh,Medium,[],Weekend,True,7.5,['Chess'],['Guitar'],"['Hangout with Cami', 'Cooking']"
+2025-03-14,Friday,Good,Medium,[],Home office,False,5.6,"[""Baldur's Gate"", 'Zelda']",[],"['Cooking', 'Meditation']"
+2025-03-13,Thursday,Neutral,High,[],Classes,False,8.5,['Clash Royale'],['Piano'],['Hangout with Cami']
+2025-03-12,Wednesday,Great,High,[],Weekend,False,5.9,"['Zelda', ""Baldur's Gate""]",[],"['Work in HabitLens', 'Cooking']"
+2025-03-11,Tuesday,Terrible,Very High,['Back Day'],Home office,False,6.5,['Zelda'],[],[]
+2025-03-10,Monday,Neutral,High,"['Legs Day', 'Chest Day']",Home office,True,7.0,['Clash Royale'],['Piano'],"['Meditation', 'Hangout with Cami']"
+2025-03-09,Sunday,Great,High,['Cardio'],Weekend,True,5.6,[],"['Listening', 'Composition', 'Recording']",[]
+2025-03-08,Saturday,Neutral,High,"['Chest Day', 'Cardio']",Weekend,False,8.5,['Zelda'],"['Listening', 'Bass']",['Dinner with Cami']
+2025-03-07,Friday,Good,Medium,"['Back Day', 'Arms Day']",Office,False,5.8,"[""Baldur's Gate""]","['Listening', 'Vocals']",['Hangout with Cami']
+2025-03-06,Thursday,Good,High,['Back Day'],Classes,False,6.1,[],"['Bass', 'Practice', 'Composition']",['Dinner with Cami']
+2025-03-05,Wednesday,Great,High,[],Home office,False,7.3,"['Clash Royale', ""Baldur's Gate""]",['Bass'],"['Meditation', 'Dinner with Cami']"
+2025-03-04,Tuesday,Amazing,High,[],Home office,True,5.6,"['Chess', ""Baldur's Gate""]",['Practice'],"['Meditation', 'Dinner with Cami', 'Cooking']"
+2025-03-03,Monday,Neutral,Very Low,[],Classes,True,6.6,[],['Bass'],[]
+2025-03-02,Sunday,Meh,Low,"['Cardio', 'Back Day']",Weekend,True,7.7,"['Zelda', 'Chess']","['Bass', 'Listening', 'Composition']",['Hangout with Cami']
+2025-03-01,Saturday,Neutral,Medium,['Legs Day'],Weekend,True,5.1,[],"['Guitar', 'Recording']","['Meditation', 'Hangout with Cami']"
+2025-02-28,Friday,Neutral,Medium,"['Arms Day', 'Legs Day']",Weekend,True,5.9,"['Chess', ""Baldur's Gate""]","['Bass', 'Piano', 'Composition']",[]
+2025-02-27,Thursday,Amazing,Medium,['Legs Day'],Office,True,9.0,"['Clash Royale', 'Chess']","['Composition', 'Recording', 'Bass']","['Meditation', 'Hangout with Cami', 'Work in HabitLens']"
+2025-02-26,Wednesday,Sad,Very Low,[],Classes,True,7.2,['Zelda'],[],"['Hangout with Cami', 'Work in HabitLens', 'Meditation']"
+2025-02-25,Tuesday,Meh,High,[],Office,True,6.9,"['Zelda', ""Baldur's Gate""]","['Recording', 'Guitar']",[]
+2025-02-24,Monday,Good,High,"['Legs Day', 'Chest Day']",Home office,False,7.7,[],"['Composition', 'Piano', 'Practice']","['Dinner with Cami', 'Hangout with Cami']"
+2025-02-23,Sunday,Good,Very High,[],Weekend,False,4.6,[],[],['Hangout with Cami']
+2025-02-22,Saturday,Good,Very Low,"['Arms Day', 'Cardio']",Weekend,True,8.0,['Chess'],['Piano'],['Meditation']
+2025-02-21,Friday,Neutral,Low,[],Office,False,7.2,[],[],[]
+2025-02-20,Thursday,Great,Medium,[],Home office,False,6.9,"['Chess', 'Zelda']","['Vocals', 'Recording']",[]
+2025-02-19,Wednesday,Neutral,Medium,[],Office,False,6.8,"['Zelda', 'Clash Royale']","['Vocals', 'Piano', 'Bass']","['Hangout with Cami', 'Dinner with Cami', 'Meditation']"
+2025-02-18,Tuesday,Great,High,[],Home office,True,5.9,"['Clash Royale', 'Zelda']",[],[]
+2025-02-17,Monday,Sad,Very High,[],Office,False,6.8,['Clash Royale'],[],"['Dinner with Cami', 'Hangout with Cami']"
+2025-02-16,Sunday,Neutral,Medium,[],Weekend,True,8.0,[],[],"['Work in HabitLens', 'Meditation', 'Hangout with Cami']"
+2025-02-15,Saturday,Good,Medium,['Back Day'],Weekend,True,7.8,[],[],['Work in HabitLens']
+2025-02-14,Friday,Good,Very High,"['Back Day', 'Arms Day']",Home office,True,8.1,['Clash Royale'],"['Bass', 'Practice']",['Dinner with Cami']
+2025-02-13,Thursday,Great,Medium,['Legs Day'],Classes,False,6.0,"['Zelda', 'Chess']",[],"['Work in HabitLens', 'Meditation']"
+2025-02-12,Wednesday,Sad,Very High,"['Back Day', 'Arms Day']",Home office,True,5.6,"[""Baldur's Gate"", 'Chess']","['Listening', 'Piano', 'Guitar']","['Work in HabitLens', 'Dinner with Cami', 'Cooking']"
+2025-02-11,Tuesday,Sad,Medium,[],Classes,True,5.5,"[""Baldur's Gate""]",[],"['Work in HabitLens', 'Meditation', 'Dinner with Cami']"
+2025-02-10,Monday,Neutral,High,['Chest Day'],Home office,False,8.2,[],[],"['Cooking', 'Meditation', 'Work in HabitLens']"
+2025-02-09,Sunday,Meh,Medium,['Chest Day'],Weekend,True,7.2,[],[],"['Work in HabitLens', 'Dinner with Cami', 'Cooking']"
+2025-02-08,Saturday,Good,Medium,['Cardio'],Weekend,True,6.1,"['Chess', 'Zelda']","['Bass', 'Piano', 'Listening']","['Hangout with Cami', 'Work in HabitLens']"
+2025-02-07,Friday,Amazing,Medium,[],Home office,True,6.9,"[""Baldur's Gate"", 'Chess']",[],[]
+2025-02-06,Thursday,Great,Medium,[],Office,True,5.5,[],"['Guitar', 'Listening']","['Dinner with Cami', 'Hangout with Cami']"
+2025-02-05,Wednesday,Neutral,High,"['Chest Day', 'Cardio']",Classes,False,7.8,"['Zelda', 'Clash Royale']","['Bass', 'Piano', 'Practice']",[]
+2025-02-04,Tuesday,Neutral,High,[],Home office,True,7.8,"['Zelda', ""Baldur's Gate""]",['Listening'],"['Dinner with Cami', 'Hangout with Cami']"
+2025-02-03,Monday,Good,High,['Cardio'],Office,True,5.8,['Zelda'],[],['Meditation']
+2025-02-02,Sunday,Neutral,High,"['Cardio', 'Arms Day']",Weekend,False,6.9,"['Zelda', ""Baldur's Gate""]",[],"['Hangout with Cami', 'Dinner with Cami', 'Cooking']"
+2025-02-01,Saturday,Neutral,High,[],Weekend,True,5.4,[],['Listening'],['Work in HabitLens']
+2025-01-31,Friday,Great,Medium,"['Arms Day', 'Chest Day']",Office,False,4.9,['Zelda'],"['Recording', 'Bass']",[]
+2025-01-30,Thursday,Meh,Low,[],Classes,True,7.1,[],[],"['Work in HabitLens', 'Cooking', 'Hangout with Cami']"
+2025-01-29,Wednesday,Good,Medium,"['Chest Day', 'Back Day']",Office,True,9.0,[],"['Listening', 'Practice']",['Meditation']
+2025-01-28,Tuesday,Good,High,[],Classes,False,7.1,['Clash Royale'],"['Bass', 'Vocals']",[]
+2025-01-27,Monday,Good,Very High,"['Chest Day', 'Back Day']",Weekend,False,6.3,"[""Baldur's Gate""]","['Guitar', 'Composition', 'Practice']",['Work in HabitLens']
+2025-01-26,Sunday,Neutral,Medium,[],Weekend,True,6.0,[],[],"['Dinner with Cami', 'Work in HabitLens']"
+2025-01-25,Saturday,Neutral,Medium,[],Weekend,False,9.0,"['Clash Royale', ""Baldur's Gate""]",['Bass'],['Cooking']
+2025-01-24,Friday,Amazing,Medium,['Cardio'],Home office,True,7.4,"['Clash Royale', 'Zelda']",[],"['Cooking', 'Dinner with Cami']"
+2025-01-23,Thursday,Good,Medium,['Chest Day'],Home office,True,7.3,"[""Baldur's Gate"", 'Clash Royale']",[],[]
+2025-01-22,Wednesday,Great,Very High,"['Arms Day', 'Chest Day']",Home office,False,5.1,"['Clash Royale', 'Zelda']",['Vocals'],[]
+2025-01-21,Tuesday,Neutral,High,[],Office,True,7.7,['Chess'],"['Bass', 'Practice']","['Dinner with Cami', 'Work in HabitLens', 'Hangout with Cami']"
+2025-01-20,Monday,Neutral,High,"['Cardio', 'Legs Day']",Home office,True,6.5,"['Chess', 'Clash Royale']","['Guitar', 'Composition', 'Piano']","['Work in HabitLens', 'Meditation']"
+2025-01-19,Sunday,Great,High,"['Arms Day', 'Back Day']",Weekend,True,8.7,[],"['Listening', 'Recording', 'Bass']","['Hangout with Cami', 'Meditation']"
+2025-01-18,Saturday,Good,Medium,"['Arms Day', 'Chest Day']",Weekend,False,7.6,"[""Baldur's Gate"", 'Chess']","['Piano', 'Bass', 'Listening']",['Hangout with Cami']
+2025-01-17,Friday,Neutral,Low,"['Legs Day', 'Arms Day']",Office,True,6.9,[],['Practice'],"['Work in HabitLens', 'Meditation']"
+2025-01-16,Thursday,Amazing,Medium,['Legs Day'],Office,True,7.6,['Zelda'],"['Guitar', 'Listening']",[]
+2025-01-15,Wednesday,Good,Medium,['Cardio'],Classes,True,9.0,['Zelda'],"['Listening', 'Guitar', 'Piano']","['Meditation', 'Cooking']"
+2025-01-14,Tuesday,Great,High,"['Legs Day', 'Arms Day']",Classes,True,7.8,"[""Baldur's Gate""]",['Vocals'],"['Hangout with Cami', 'Cooking']"
+2025-01-13,Monday,Amazing,Very High,[],Office,False,7.9,"['Chess', 'Clash Royale']","['Listening', 'Vocals', 'Bass']","['Cooking', 'Work in HabitLens', 'Hangout with Cami']"
+2025-01-12,Sunday,Terrible,Medium,[],Weekend,True,6.3,[],"['Bass', 'Guitar']","['Hangout with Cami', 'Meditation']"
+2025-01-11,Saturday,Neutral,Low,['Arms Day'],Weekend,True,8.2,"[""Baldur's Gate""]","['Recording', 'Bass', 'Piano']","['Dinner with Cami', 'Hangout with Cami']"
+2025-01-10,Friday,Good,Medium,"['Arms Day', 'Back Day']",Office,False,7.0,"['Zelda', 'Clash Royale']","['Piano', 'Composition']",[]
+2025-01-09,Thursday,Good,Low,"['Back Day', 'Chest Day']",Classes,False,7.9,"[""Baldur's Gate""]",['Listening'],"['Work in HabitLens', 'Meditation', 'Dinner with Cami']"
+2025-01-08,Wednesday,Good,High,"['Legs Day', 'Cardio']",Office,False,6.6,[],"['Vocals', 'Listening', 'Bass']","['Cooking', 'Hangout with Cami', 'Dinner with Cami']"
+2025-01-07,Tuesday,Neutral,Medium,[],Office,False,5.9,"[""Baldur's Gate"", 'Clash Royale']","['Listening', 'Bass', 'Practice']",[]
+2025-01-06,Monday,Neutral,Medium,['Back Day'],Office,True,7.4,"['Chess', 'Clash Royale']",['Composition'],['Cooking']
+2025-01-05,Sunday,Good,Very Low,"['Cardio', 'Legs Day']",Weekend,False,7.6,['Chess'],"['Practice', 'Guitar']","['Dinner with Cami', 'Hangout with Cami', 'Cooking']"
+2025-01-04,Saturday,Meh,Very Low,"['Chest Day', 'Legs Day']",Weekend,True,7.7,['Zelda'],"['Composition', 'Practice']",['Work in HabitLens']
+2025-01-03,Friday,Terrible,High,"['Cardio', 'Arms Day']",Home office,False,6.7,"[""Baldur's Gate""]","['Recording', 'Guitar', 'Vocals']","['Cooking', 'Dinner with Cami']"
+2025-01-02,Thursday,Great,High,"['Chest Day', 'Legs Day']",Office,False,5.6,[],"['Piano', 'Bass']",['Meditation']
+2025-01-01,Wednesday,Great,Very High,"['Cardio', 'Back Day']",Home office,False,7.3,"[""Baldur's Gate""]","['Vocals', 'Bass']","['Meditation', 'Dinner with Cami', 'Cooking']"
+2024-12-31,Tuesday,Meh,Very Low,[],Home office,True,5.9,"['Clash Royale', 'Zelda']","['Guitar', 'Listening']",['Meditation']
+2024-12-30,Monday,Great,High,"['Chest Day', 'Arms Day']",Home office,False,7.4,"['Clash Royale', 'Chess']",['Listening'],"['Dinner with Cami', 'Meditation']"
+2024-12-29,Sunday,Good,Medium,['Legs Day'],Weekend,True,7.0,"['Clash Royale', 'Chess']",['Practice'],"['Work in HabitLens', 'Dinner with Cami', 'Cooking']"
+2024-12-28,Saturday,Great,Medium,[],Weekend,False,7.5,"['Zelda', ""Baldur's Gate""]",[],"['Meditation', 'Cooking']"
+2024-12-27,Friday,Neutral,Medium,"['Arms Day', 'Back Day']",Office,True,7.2,[],"['Guitar', 'Practice']","['Meditation', 'Dinner with Cami', 'Hangout with Cami']"
+2024-12-26,Thursday,Neutral,Medium,[],Home office,True,9.0,[],"['Vocals', 'Bass']","['Meditation', 'Cooking']"
+2024-12-25,Wednesday,Neutral,Low,"['Back Day', 'Arms Day']",Office,True,6.4,"[""Baldur's Gate""]",[],[]
+2024-12-24,Tuesday,Neutral,High,['Cardio'],Office,True,6.0,[],['Practice'],"['Dinner with Cami', 'Cooking']"
+2024-12-23,Monday,Neutral,Low,[],Classes,True,9.0,"['Clash Royale', ""Baldur's Gate""]",['Vocals'],['Cooking']
+2024-12-22,Sunday,Good,Low,"['Chest Day', 'Cardio']",Weekend,False,7.1,[],['Bass'],"['Hangout with Cami', 'Work in HabitLens', 'Dinner with Cami']"
+2024-12-21,Saturday,Good,Low,['Cardio'],Weekend,True,7.3,[],['Recording'],['Dinner with Cami']
+2024-12-20,Friday,Meh,Very High,['Arms Day'],Office,True,6.7,"[""Baldur's Gate"", 'Chess']",['Piano'],['Dinner with Cami']
+2024-12-19,Thursday,Amazing,High,"['Cardio', 'Arms Day']",Office,True,6.5,"['Clash Royale', 'Zelda']","['Guitar', 'Composition', 'Vocals']",[]
+2024-12-18,Wednesday,Good,Low,[],Classes,True,4.3,[],"['Vocals', 'Recording']","['Hangout with Cami', 'Dinner with Cami', 'Work in HabitLens']"
+2024-12-17,Tuesday,Neutral,Medium,['Arms Day'],Classes,False,6.2,['Chess'],"['Composition', 'Guitar']","['Dinner with Cami', 'Work in HabitLens']"
+2024-12-16,Monday,Neutral,Low,[],Office,True,6.1,"['Clash Royale', 'Chess']","['Practice', 'Bass']",['Meditation']
+2024-12-15,Sunday,Great,Medium,['Arms Day'],Weekend,True,6.2,"[""Baldur's Gate"", 'Clash Royale']",[],[]
+2024-12-14,Saturday,Good,Medium,['Cardio'],Weekend,True,5.6,[],[],"['Meditation', 'Work in HabitLens', 'Hangout with Cami']"
+2024-12-13,Friday,Good,Medium,"['Cardio', 'Chest Day']",Office,False,5.6,"[""Baldur's Gate"", 'Chess']",['Recording'],[]
+2024-12-12,Thursday,Neutral,Low,[],Classes,False,7.7,"[""Baldur's Gate"", 'Chess']","['Recording', 'Bass', 'Vocals']",[]
+2024-12-11,Wednesday,Amazing,Medium,['Arms Day'],Office,False,7.3,['Zelda'],[],[]
+2024-12-10,Tuesday,Good,Medium,['Arms Day'],Office,True,7.9,[],"['Guitar', 'Piano', 'Vocals']","['Meditation', 'Work in HabitLens']"
+2024-12-09,Monday,Great,Low,[],Classes,True,8.3,[],"['Bass', 'Listening', 'Composition']",[]
+2024-12-08,Sunday,Good,Low,[],Weekend,True,6.4,"['Zelda', 'Chess']","['Bass', 'Recording']",[]
+2024-12-07,Saturday,Amazing,Medium,[],Weekend,True,6.1,"['Clash Royale', 'Zelda']","['Guitar', 'Vocals', 'Composition']","['Meditation', 'Hangout with Cami', 'Cooking']"
+2024-12-06,Friday,Meh,High,"['Arms Day', 'Chest Day']",Office,False,5.9,"['Clash Royale', 'Zelda']",['Practice'],"['Cooking', 'Hangout with Cami', 'Meditation']"
+2024-12-05,Thursday,Good,High,"['Legs Day', 'Chest Day']",Classes,False,7.3,"['Zelda', ""Baldur's Gate""]","['Guitar', 'Piano']",['Meditation']
+2024-12-04,Wednesday,Neutral,Low,[],Office,True,7.0,"['Chess', 'Clash Royale']",['Practice'],[]
+2024-12-03,Tuesday,Neutral,Medium,['Cardio'],Classes,False,7.6,['Zelda'],['Practice'],"['Hangout with Cami', 'Dinner with Cami', 'Meditation']"
+2024-12-02,Monday,Great,Low,[],Office,True,6.1,['Zelda'],"['Vocals', 'Piano', 'Bass']",[]
+2024-12-01,Sunday,Great,Medium,"['Back Day', 'Chest Day']",Weekend,True,7.1,"['Clash Royale', ""Baldur's Gate""]","['Composition', 'Recording', 'Bass']",['Cooking']
+2024-11-30,Saturday,Neutral,High,[],Weekend,False,7.7,[],"['Bass', 'Guitar', 'Listening']","['Hangout with Cami', 'Work in HabitLens', 'Meditation']"
+2024-11-29,Friday,Amazing,Medium,"['Chest Day', 'Arms Day']",Office,False,6.8,['Chess'],"['Guitar', 'Piano', 'Practice']","['Hangout with Cami', 'Meditation', 'Dinner with Cami']"
+2024-11-28,Thursday,Great,Very High,[],Office,True,5.3,"[""Baldur's Gate"", 'Chess']","['Bass', 'Guitar']",[]
+2024-11-27,Wednesday,Great,Low,"['Cardio', 'Back Day']",Office,False,7.2,[],['Bass'],"['Cooking', 'Meditation']"
+2024-11-26,Tuesday,Neutral,Very High,[],Office,False,5.4,['Clash Royale'],"['Recording', 'Practice', 'Piano']","['Meditation', 'Hangout with Cami']"
+2024-11-25,Monday,Terrible,Low,[],Classes,False,6.2,"[""Baldur's Gate""]",[],"['Meditation', 'Hangout with Cami', 'Work in HabitLens']"
+2024-11-24,Sunday,Sad,Low,"['Arms Day', 'Back Day']",Weekend,False,7.3,"['Zelda', 'Clash Royale']","['Vocals', 'Listening']","['Meditation', 'Hangout with Cami']"
+2024-11-23,Saturday,Great,Low,[],Weekend,True,8.5,[],['Vocals'],"['Work in HabitLens', 'Dinner with Cami']"
+2024-11-22,Friday,Sad,Medium,[],Classes,True,8.0,[],"['Guitar', 'Recording']","['Cooking', 'Work in HabitLens']"
+2024-11-21,Thursday,Good,High,['Cardio'],Home office,True,8.8,['Zelda'],[],['Cooking']
+2024-11-20,Wednesday,Meh,Medium,"['Back Day', 'Legs Day']",Home office,False,7.8,['Zelda'],"['Listening', 'Piano']",[]
+2024-11-19,Tuesday,Neutral,Medium,[],Classes,False,6.7,['Zelda'],"['Composition', 'Guitar']","['Cooking', 'Dinner with Cami']"
+2024-11-18,Monday,Sad,Medium,[],Office,False,7.2,[],"['Vocals', 'Guitar']","['Meditation', 'Hangout with Cami', 'Cooking']"
+2024-11-17,Sunday,Good,High,[],Weekend,False,7.0,[],"['Guitar', 'Vocals', 'Recording']","['Dinner with Cami', 'Hangout with Cami']"
+2024-11-16,Saturday,Good,Low,"['Cardio', 'Arms Day']",Weekend,True,6.1,"[""Baldur's Gate"", 'Clash Royale']","['Vocals', 'Bass', 'Piano']","['Hangout with Cami', 'Work in HabitLens', 'Cooking']"
+2024-11-15,Friday,Sad,Medium,"['Cardio', 'Back Day']",Weekend,False,6.1,"[""Baldur's Gate"", 'Zelda']","['Guitar', 'Piano']","['Work in HabitLens', 'Cooking', 'Hangout with Cami']"
+2024-11-14,Thursday,Good,Medium,"['Chest Day', 'Back Day']",Weekend,True,5.3,['Chess'],[],[]
+2024-11-13,Wednesday,Neutral,Medium,[],Office,True,8.8,[],[],"['Hangout with Cami', 'Meditation']"
+2024-11-12,Tuesday,Good,Medium,['Chest Day'],Home office,True,5.4,[],"['Listening', 'Guitar', 'Piano']","['Hangout with Cami', 'Cooking', 'Meditation']"
+2024-11-11,Monday,Amazing,Medium,[],Office,False,7.7,[],[],['Cooking']
+2024-11-10,Sunday,Neutral,High,['Back Day'],Weekend,True,7.1,['Clash Royale'],[],"['Meditation', 'Dinner with Cami']"
+2024-11-09,Saturday,Neutral,Medium,[],Weekend,True,6.6,"['Clash Royale', 'Chess']","['Guitar', 'Bass']","['Work in HabitLens', 'Cooking', 'Meditation']"
+2024-11-08,Friday,Sad,Medium,['Cardio'],Office,False,6.6,['Clash Royale'],"['Bass', 'Practice', 'Vocals']",[]
+2024-11-07,Thursday,Amazing,Very High,['Cardio'],Office,True,4.6,[],[],"['Meditation', 'Work in HabitLens', 'Dinner with Cami']"
+2024-11-06,Wednesday,Great,Very High,"['Back Day', 'Arms Day']",Office,True,9.0,[],[],['Cooking']
+2024-11-05,Tuesday,Great,Medium,[],Weekend,True,5.9,['Zelda'],"['Bass', 'Piano', 'Vocals']",[]
+2024-11-04,Monday,Great,Low,[],Office,True,6.2,"[""Baldur's Gate"", 'Clash Royale']","['Composition', 'Vocals']",[]
+2024-11-03,Sunday,Neutral,Low,[],Weekend,False,5.0,[],['Practice'],[]
+2024-11-02,Saturday,Amazing,Medium,['Legs Day'],Weekend,False,5.5,['Chess'],"['Recording', 'Piano']",['Dinner with Cami']
+2024-11-01,Friday,Neutral,Medium,[],Classes,False,6.7,"[""Baldur's Gate""]",['Vocals'],"['Cooking', 'Dinner with Cami']"
+2024-10-31,Thursday,Neutral,Low,"['Chest Day', 'Legs Day']",Home office,True,7.3,[],"['Guitar', 'Practice', 'Recording']",['Cooking']
+2024-10-30,Wednesday,Good,High,"['Back Day', 'Legs Day']",Office,True,4.3,"['Chess', 'Clash Royale']",['Piano'],[]
+2024-10-29,Tuesday,Neutral,Medium,"['Back Day', 'Legs Day']",Classes,True,6.7,"[""Baldur's Gate""]","['Practice', 'Composition', 'Bass']",['Cooking']
+2024-10-28,Monday,Good,Very High,['Back Day'],Classes,True,8.0,[],"['Piano', 'Vocals', 'Listening']",['Cooking']
+2024-10-27,Sunday,Amazing,Medium,[],Weekend,False,7.0,[],['Listening'],['Work in HabitLens']
+2024-10-26,Saturday,Meh,Very High,['Chest Day'],Weekend,True,7.7,['Clash Royale'],['Listening'],"['Hangout with Cami', 'Dinner with Cami']"
+2024-10-25,Friday,Great,Medium,"['Arms Day', 'Chest Day']",Classes,True,7.5,['Chess'],"['Listening', 'Vocals', 'Composition']","['Dinner with Cami', 'Work in HabitLens', 'Meditation']"
+2024-10-24,Thursday,Neutral,Medium,"['Back Day', 'Legs Day']",Classes,False,5.0,"['Clash Royale', 'Zelda']","['Piano', 'Listening', 'Recording']","['Hangout with Cami', 'Work in HabitLens', 'Cooking']"
+2024-10-23,Wednesday,Neutral,Medium,[],Office,False,7.8,[],"['Vocals', 'Practice', 'Composition']",['Dinner with Cami']
+2024-10-22,Tuesday,Great,Medium,[],Classes,False,7.1,"[""Baldur's Gate"", 'Clash Royale']",['Vocals'],"['Meditation', 'Work in HabitLens']"
+2024-10-21,Monday,Great,Medium,[],Classes,True,5.9,[],"['Piano', 'Recording', 'Listening']","['Work in HabitLens', 'Dinner with Cami', 'Cooking']"
+2024-10-20,Sunday,Good,High,[],Weekend,True,4.8,['Zelda'],"['Practice', 'Bass', 'Piano']",[]
+2024-10-19,Saturday,Meh,Medium,['Back Day'],Weekend,True,6.9,['Chess'],"['Bass', 'Composition', 'Listening']","['Hangout with Cami', 'Work in HabitLens']"
+2024-10-18,Friday,Amazing,Very High,['Cardio'],Classes,True,7.5,"[""Baldur's Gate""]","['Piano', 'Guitar']",['Cooking']
+2024-10-17,Thursday,Great,Low,"['Chest Day', 'Cardio']",Office,False,5.8,[],"['Practice', 'Guitar', 'Bass']","['Meditation', 'Dinner with Cami']"
+2024-10-16,Wednesday,Great,Medium,['Cardio'],Classes,True,7.0,[],['Practice'],['Dinner with Cami']
+2024-10-15,Tuesday,Amazing,Low,[],Home office,True,9.0,"[""Baldur's Gate"", 'Zelda']","['Piano', 'Listening', 'Composition']","['Dinner with Cami', 'Work in HabitLens']"
+2024-10-14,Monday,Great,Medium,['Back Day'],Office,True,7.8,[],"['Listening', 'Piano']","['Work in HabitLens', 'Cooking', 'Hangout with Cami']"
+2024-10-13,Sunday,Neutral,High,[],Weekend,True,7.5,[],['Vocals'],"['Meditation', 'Cooking', 'Dinner with Cami']"
+2024-10-12,Saturday,Good,High,[],Weekend,False,7.9,"[""Baldur's Gate"", 'Chess']",['Piano'],[]
+2024-10-11,Friday,Great,High,['Legs Day'],Home office,False,6.8,[],[],"['Work in HabitLens', 'Dinner with Cami', 'Cooking']"
+2024-10-10,Thursday,Meh,High,[],Office,True,7.6,"[""Baldur's Gate"", 'Clash Royale']","['Recording', 'Piano', 'Listening']","['Dinner with Cami', 'Work in HabitLens', 'Hangout with Cami']"
+2024-10-09,Wednesday,Neutral,Low,"['Arms Day', 'Legs Day']",Home office,True,5.9,[],"['Listening', 'Composition']",[]
+2024-10-08,Tuesday,Terrible,Medium,[],Classes,False,4.8,"[""Baldur's Gate""]","['Piano', 'Bass']",['Dinner with Cami']
+2024-10-07,Monday,Good,Medium,[],Home office,True,6.7,['Zelda'],"['Guitar', 'Listening']","['Cooking', 'Work in HabitLens']"
+2024-10-06,Sunday,Neutral,Medium,['Back Day'],Weekend,True,7.7,"['Zelda', 'Clash Royale']",['Recording'],[]
+2024-10-05,Saturday,Amazing,Very Low,[],Weekend,False,8.1,"['Zelda', 'Clash Royale']","['Recording', 'Guitar']","['Hangout with Cami', 'Dinner with Cami']"
+2024-10-04,Friday,Meh,Very High,"['Legs Day', 'Cardio']",Office,True,5.6,['Zelda'],[],['Dinner with Cami']
+2024-10-03,Thursday,Great,High,[],Office,True,5.4,['Zelda'],"['Recording', 'Practice', 'Piano']",[]
+2024-10-02,Wednesday,Good,Low,['Cardio'],Classes,False,6.1,"['Clash Royale', ""Baldur's Gate""]","['Piano', 'Guitar']",['Hangout with Cami']
+2024-10-01,Tuesday,Neutral,High,"['Back Day', 'Arms Day']",Classes,True,6.5,[],"['Piano', 'Bass', 'Recording']","['Hangout with Cami', 'Meditation', 'Work in HabitLens']"
+2024-09-30,Monday,Sad,Medium,[],Classes,False,6.9,['Chess'],"['Piano', 'Recording']","['Meditation', 'Cooking', 'Work in HabitLens']"
+2024-09-29,Sunday,Amazing,Very Low,[],Weekend,True,9.0,['Clash Royale'],[],['Dinner with Cami']
+2024-09-28,Saturday,Amazing,Medium,['Chest Day'],Weekend,True,8.3,['Clash Royale'],"['Listening', 'Bass', 'Guitar']",[]
+2024-09-27,Friday,Good,Medium,['Cardio'],Home office,False,7.8,"[""Baldur's Gate"", 'Clash Royale']",[],"['Cooking', 'Work in HabitLens', 'Hangout with Cami']"
+2024-09-26,Thursday,Neutral,Medium,[],Office,True,7.4,[],['Composition'],"['Work in HabitLens', 'Hangout with Cami', 'Meditation']"
+2024-09-25,Wednesday,Neutral,Low,"['Cardio', 'Back Day']",Home office,True,7.7,"[""Baldur's Gate""]",['Practice'],['Meditation']
+2024-09-24,Tuesday,Good,High,"['Chest Day', 'Cardio']",Home office,False,6.6,"['Chess', 'Zelda']",[],"['Dinner with Cami', 'Cooking', 'Meditation']"
+2024-09-23,Monday,Sad,High,[],Home office,True,8.8,['Chess'],[],"['Dinner with Cami', 'Cooking']"
+2024-09-22,Sunday,Neutral,Medium,[],Weekend,True,4.9,"[""Baldur's Gate"", 'Zelda']",[],"['Work in HabitLens', 'Dinner with Cami', 'Hangout with Cami']"
+2024-09-21,Saturday,Good,Medium,"['Cardio', 'Arms Day']",Weekend,True,7.6,[],"['Guitar', 'Practice']","['Meditation', 'Work in HabitLens', 'Dinner with Cami']"
+2024-09-20,Friday,Neutral,Very High,['Back Day'],Classes,False,5.4,[],"['Guitar', 'Bass', 'Composition']","['Work in HabitLens', 'Cooking', 'Dinner with Cami']"
+2024-09-19,Thursday,Terrible,High,"['Back Day', 'Arms Day']",Office,True,6.9,['Chess'],"['Bass', 'Vocals']",['Hangout with Cami']
+2024-09-18,Wednesday,Meh,Medium,[],Office,True,8.1,['Clash Royale'],"['Composition', 'Vocals', 'Piano']",[]
+2024-09-17,Tuesday,Neutral,Low,[],Home office,False,5.5,"[""Baldur's Gate"", 'Chess']","['Composition', 'Recording']",[]
+2024-09-16,Monday,Good,Very High,[],Home office,True,6.5,[],"['Bass', 'Piano']",['Cooking']
+2024-09-15,Sunday,Good,Medium,"['Legs Day', 'Arms Day']",Weekend,True,5.5,"['Clash Royale', 'Chess']","['Listening', 'Recording']","['Cooking', 'Meditation', 'Work in HabitLens']"
+2024-09-14,Saturday,Amazing,Medium,[],Weekend,False,6.8,['Clash Royale'],[],"['Dinner with Cami', 'Cooking']"
+2024-09-13,Friday,Amazing,Low,['Arms Day'],Home office,True,8.3,"['Chess', ""Baldur's Gate""]","['Guitar', 'Recording', 'Composition']","['Dinner with Cami', 'Cooking', 'Meditation']"
+2024-09-12,Thursday,Meh,High,['Chest Day'],Office,False,5.9,"['Clash Royale', ""Baldur's Gate""]",['Bass'],['Hangout with Cami']
+2024-09-11,Wednesday,Terrible,Very High,[],Classes,False,6.6,"[""Baldur's Gate"", 'Chess']","['Practice', 'Vocals', 'Piano']","['Cooking', 'Dinner with Cami']"
+2024-09-10,Tuesday,Great,High,[],Home office,True,5.8,['Chess'],"['Practice', 'Listening']",[]
+2024-09-09,Monday,Meh,Medium,[],Home office,False,6.8,[],['Composition'],['Hangout with Cami']
+2024-09-08,Sunday,Good,High,"['Back Day', 'Cardio']",Weekend,True,7.4,"[""Baldur's Gate""]",[],"['Cooking', 'Work in HabitLens', 'Hangout with Cami']"
+2024-09-07,Saturday,Amazing,Medium,['Chest Day'],Weekend,True,5.3,"['Clash Royale', 'Zelda']","['Vocals', 'Composition']",[]
+2024-09-06,Friday,Meh,Low,['Arms Day'],Office,False,7.3,"[""Baldur's Gate"", 'Clash Royale']","['Guitar', 'Piano', 'Bass']",[]
+2024-09-05,Thursday,Neutral,Very High,['Cardio'],Office,True,7.3,[],"['Guitar', 'Composition']",[]
+2024-09-04,Wednesday,Good,High,['Arms Day'],Office,False,7.8,['Chess'],[],"['Work in HabitLens', 'Meditation', 'Hangout with Cami']"
+2024-09-03,Tuesday,Neutral,Very High,[],Office,True,6.2,['Chess'],[],"['Meditation', 'Dinner with Cami']"
+2024-09-02,Monday,Good,High,"['Chest Day', 'Legs Day']",Home office,True,7.2,"['Chess', 'Zelda']","['Composition', 'Piano', 'Listening']","['Work in HabitLens', 'Hangout with Cami', 'Meditation']"
+2024-09-01,Sunday,Good,Medium,[],Weekend,False,8.2,"[""Baldur's Gate"", 'Clash Royale']","['Piano', 'Guitar', 'Recording']","['Meditation', 'Cooking']"
+2024-08-31,Saturday,Neutral,Very High,['Chest Day'],Weekend,True,5.8,['Clash Royale'],[],[]
+2024-08-30,Friday,Good,High,['Arms Day'],Office,False,5.9,[],"['Piano', 'Guitar', 'Recording']",[]
+2024-08-29,Thursday,Good,High,"['Cardio', 'Legs Day']",Home office,False,4.4,"[""Baldur's Gate"", 'Chess']",[],"['Meditation', 'Work in HabitLens', 'Dinner with Cami']"
+2024-08-28,Wednesday,Great,High,[],Home office,False,7.3,"['Zelda', 'Clash Royale']","['Piano', 'Guitar', 'Listening']","['Dinner with Cami', 'Work in HabitLens', 'Hangout with Cami']"
+2024-08-27,Tuesday,Good,Medium,"['Back Day', 'Arms Day']",Home office,True,7.7,"['Chess', ""Baldur's Gate""]","['Piano', 'Guitar', 'Composition']","['Work in HabitLens', 'Cooking']"
+2024-08-26,Monday,Good,Medium,"['Legs Day', 'Cardio']",Office,True,6.5,['Clash Royale'],"['Guitar', 'Composition']","['Work in HabitLens', 'Meditation']"
+2024-08-25,Sunday,Neutral,Low,"['Chest Day', 'Cardio']",Weekend,False,5.7,[],"['Practice', 'Bass']","['Work in HabitLens', 'Hangout with Cami']"
+2024-08-24,Saturday,Neutral,Medium,[],Weekend,True,8.4,[],['Practice'],"['Hangout with Cami', 'Work in HabitLens']"
+2024-08-23,Friday,Great,Medium,['Cardio'],Home office,True,6.6,"[""Baldur's Gate"", 'Chess']",[],"['Dinner with Cami', 'Work in HabitLens']"
+2024-08-22,Thursday,Neutral,High,[],Office,True,7.6,[],[],['Dinner with Cami']
+2024-08-21,Wednesday,Neutral,Low,['Back Day'],Office,False,8.6,"['Chess', 'Clash Royale']",[],"['Meditation', 'Dinner with Cami']"
+2024-08-20,Tuesday,Good,Very Low,[],Office,True,6.7,"['Chess', 'Clash Royale']",[],['Cooking']
+2024-08-19,Monday,Neutral,Very Low,['Legs Day'],Weekend,False,5.4,"[""Baldur's Gate""]","['Vocals', 'Recording', 'Composition']","['Dinner with Cami', 'Cooking']"
+2024-08-18,Sunday,Great,Low,['Cardio'],Weekend,False,7.1,[],"['Practice', 'Guitar', 'Vocals']","['Cooking', 'Meditation', 'Hangout with Cami']"
+2024-08-17,Saturday,Sad,High,"['Chest Day', 'Cardio']",Weekend,True,6.7,"['Clash Royale', 'Chess']","['Recording', 'Vocals']",['Hangout with Cami']
+2024-08-16,Friday,Great,Medium,"['Chest Day', 'Arms Day']",Office,False,6.8,"['Clash Royale', 'Zelda']",['Composition'],['Hangout with Cami']
+2024-08-15,Thursday,Great,High,['Legs Day'],Home office,True,9.0,[],['Recording'],"['Dinner with Cami', 'Cooking', 'Work in HabitLens']"
+2024-08-14,Wednesday,Neutral,Low,['Cardio'],Home office,True,8.3,[],['Guitar'],['Work in HabitLens']
+2024-08-13,Tuesday,Good,Very High,[],Home office,True,6.2,"[""Baldur's Gate""]",['Vocals'],"['Work in HabitLens', 'Dinner with Cami']"
+2024-08-12,Monday,Good,Low,[],Classes,False,6.8,['Chess'],['Recording'],['Work in HabitLens']
+2024-08-11,Sunday,Sad,High,[],Weekend,True,7.3,"[""Baldur's Gate""]",[],"['Meditation', 'Work in HabitLens', 'Hangout with Cami']"
+2024-08-10,Saturday,Neutral,High,[],Weekend,True,6.1,['Clash Royale'],[],"['Cooking', 'Hangout with Cami', 'Work in HabitLens']"
+2024-08-09,Friday,Great,Medium,[],Home office,True,7.9,['Chess'],"['Recording', 'Guitar']",['Work in HabitLens']
+2024-08-08,Thursday,Neutral,Medium,['Back Day'],Classes,True,6.5,[],[],[]
+2024-08-07,Wednesday,Neutral,Medium,[],Office,False,5.7,"['Zelda', 'Chess']","['Bass', 'Recording']",[]
+2024-08-06,Tuesday,Neutral,Medium,"['Chest Day', 'Arms Day']",Home office,False,7.9,['Chess'],[],[]
+2024-08-05,Monday,Neutral,Low,"['Legs Day', 'Cardio']",Weekend,False,5.2,[],['Piano'],[]
+2024-08-04,Sunday,Neutral,Medium,"['Arms Day', 'Legs Day']",Weekend,False,7.5,[],"['Vocals', 'Composition', 'Guitar']",[]
+2024-08-03,Saturday,Meh,Very High,['Arms Day'],Weekend,False,6.3,"['Chess', 'Zelda']","['Practice', 'Composition']","['Dinner with Cami', 'Work in HabitLens']"
+2024-08-02,Friday,Great,High,['Legs Day'],Office,True,8.7,"['Chess', 'Clash Royale']",[],"['Meditation', 'Dinner with Cami', 'Cooking']"
+2024-08-01,Thursday,Great,Medium,['Back Day'],Office,False,7.9,['Chess'],[],[]
+2024-07-31,Wednesday,Neutral,Low,['Cardio'],Office,True,5.6,"['Clash Royale', ""Baldur's Gate""]","['Vocals', 'Practice', 'Composition']","['Work in HabitLens', 'Meditation']"
+2024-07-30,Tuesday,Meh,High,['Back Day'],Home office,False,5.9,[],"['Composition', 'Listening', 'Recording']","['Cooking', 'Work in HabitLens']"
+2024-07-29,Monday,Amazing,Medium,[],Classes,True,6.5,"['Chess', 'Zelda']","['Vocals', 'Piano', 'Bass']","['Work in HabitLens', 'Hangout with Cami']"
+2024-07-28,Sunday,Good,Low,"['Legs Day', 'Cardio']",Weekend,False,8.2,"['Clash Royale', 'Zelda']",[],"['Dinner with Cami', 'Cooking']"
+2024-07-27,Saturday,Meh,Medium,"['Cardio', 'Arms Day']",Weekend,False,7.6,"['Zelda', 'Chess']","['Vocals', 'Composition']",['Cooking']
+2024-07-26,Friday,Meh,Very High,['Chest Day'],Classes,True,5.8,"[""Baldur's Gate"", 'Chess']",['Guitar'],[]
+2024-07-25,Thursday,Great,High,['Arms Day'],Home office,True,8.3,"[""Baldur's Gate""]",[],"['Cooking', 'Work in HabitLens', 'Hangout with Cami']"
+2024-07-24,Wednesday,Neutral,Medium,"['Arms Day', 'Back Day']",Home office,False,5.8,[],"['Listening', 'Vocals']","['Cooking', 'Meditation']"
+2024-07-23,Tuesday,Good,High,[],Classes,False,6.6,"[""Baldur's Gate""]","['Listening', 'Recording']",[]
+2024-07-22,Monday,Amazing,Medium,"['Cardio', 'Arms Day']",Office,False,8.5,"['Zelda', 'Chess']","['Guitar', 'Practice', 'Piano']",[]
+2024-07-21,Sunday,Neutral,High,['Arms Day'],Weekend,False,4.4,[],"['Listening', 'Guitar']",['Hangout with Cami']
+2024-07-20,Saturday,Terrible,Very High,[],Weekend,True,8.2,"['Chess', 'Clash Royale']",[],"['Hangout with Cami', 'Meditation', 'Cooking']"
+2024-07-19,Friday,Neutral,High,['Legs Day'],Classes,True,7.7,[],['Bass'],"['Meditation', 'Dinner with Cami', 'Hangout with Cami']"
+2024-07-18,Thursday,Good,High,[],Weekend,False,6.6,['Zelda'],"['Practice', 'Guitar', 'Vocals']",['Hangout with Cami']

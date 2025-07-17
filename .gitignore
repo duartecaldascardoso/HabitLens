@@ -181,3 +181,4 @@ cython_debug/
 .cursorindexingignore
 /.idea
 .DS_Store
+backend/habitlens/data/habits.csv

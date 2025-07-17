@@ -18,7 +18,9 @@ def fetch_all_pages() -> List:
             **{
                 "database_id": DATABASE_ID,
                 "start_cursor": start_cursor,
-            } if start_cursor else {
+            }
+            if start_cursor
+            else {
                 "database_id": DATABASE_ID,
             }
         )

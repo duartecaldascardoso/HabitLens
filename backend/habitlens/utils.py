@@ -1,5 +1,6 @@
 """Helper functions for HabitLens."""
 
+
 def extract_property_value(prop):
     """Helper to safely extract a Notion property value."""
     if prop is None:
