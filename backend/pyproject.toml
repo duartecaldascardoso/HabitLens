@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "habit-tracker-ml"
+version = "0.1.0"
+authors = [
+  { name="Duarte Cardoso", email="caldasdcardoso@gmail.com" },
+]
+description = "A machine learning model to classify and predict daily habits."
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "anyio>=4.9.0",
+    "dotenv>=0.9.9",
+    "filetype>=1.2.0",
+    "langchain>=0.3.26",
+    "langchain-openai>=0.3.27",
+    "langgraph>=0.5.0",
+    "notion-client>=2.4.0",
+    "openai>=1.93.0",
+    "pydantic>=2.11.7",
+    "python-dotenv>=1.1.1",
+    "ruff>=0.12.0",
+    "setuptools>=61.0",
+    "typer>=0.16.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "mypy",
+]
