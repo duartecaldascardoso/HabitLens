@@ -2,7 +2,7 @@
 
 
 def extract_property_value(prop):
-    """Helper to safely extract a Notion property value."""
+    """Helper to safely extract a Notion property value. Properties can be of various types and unsafe to access directly."""
     if prop is None:
         return None
 

@@ -34,7 +34,7 @@ def generate_mock_entry(date):
     )
 
     mood = random.choices(MOODS, weights=[2, 5, 10, 30, 25, 20, 8])[0]
-
+    productivity_score = random.randint(1, 5)
     energy = random.choices(ENERGY_LEVELS, weights=[5, 15, 40, 30, 10])[0]
 
     gym_chance = random.random()
@@ -52,6 +52,7 @@ def generate_mock_entry(date):
         "Date": date.date(),
         "Day": date.strftime("%A"),
         "Mood": mood,
+        "Productivity Score": productivity_score,
         "Energy Level": energy,
         "Gym": gym,
         "Day Type": day_type,
@@ -63,16 +64,16 @@ def generate_mock_entry(date):
     }
 
 
-def generate_mock_data(num_days=365):
+def generate_mock_data(num_days=3650):
     today = datetime.today()
     data = [generate_mock_entry(today - timedelta(days=i)) for i in range(num_days)]
     return pd.DataFrame(data)
 
 
 if __name__ == "__main__":
-    df = generate_mock_data(365)
+    df = generate_mock_data(3650)
     df.to_csv(
-        "/Users/duarte/Documents/Dev/HabitTrackerML/backend/data/mock_habits.csv",
+        "/Users/duarte/Documents/Dev/HabitTrackerML/backend/habitlens/data/mock_habits.csv",
         index=False,
     )
-    print("Mock data generated and saved. Path: data/mock_habitlens.csv")
+    print("Mock data generated and saved. Path: data/mock_habits.csv")

@@ -1,5 +1,6 @@
 from typing import List
 
+import pandas as pd
 from notion_client import Client
 
 from backend.habitlens.config import NOTION_TOKEN, DATABASE_ID
@@ -8,7 +9,7 @@ from backend.habitlens.utils import extract_property_value
 notion = Client(auth=NOTION_TOKEN)
 
 
-def fetch_all_pages() -> List:
+def _fetch_all_pages() -> List:
     """Uses the notion client to get the database by ID and return the information."""
     results = []
     start_cursor = None
@@ -33,7 +34,7 @@ def fetch_all_pages() -> List:
     return results
 
 
-def parse_pages(pages) -> List[dict]:
+def _parse_pages(pages) -> List[dict]:
     """Parse raw Notion pages into a list of dynamic structured dicts."""
     data = []
 
@@ -49,8 +50,14 @@ def parse_pages(pages) -> List[dict]:
     return data
 
 
-def get_daily_habits() -> List[dict]:
+def _get_daily_habits() -> List[dict]:
     """Entry point to fetch and parse daily habit entries."""
-    pages = fetch_all_pages()
-    structured_data = parse_pages(pages)
+    pages = _fetch_all_pages()
+    structured_data = _parse_pages(pages)
     return structured_data
+
+def fetch_information_from_notion_into_csv():
+    """Isolated scrip caller to ingest all the information from Notion and export it to a CSV file."""
+    dataframe = pd.DataFrame(_get_daily_habits())
+    dataframe.to_csv("data/habits.csv", index=False)
+    print("Exported to data/habits.csv")
