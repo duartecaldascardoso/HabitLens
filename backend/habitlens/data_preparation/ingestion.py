@@ -56,8 +56,12 @@ def _get_daily_habits() -> List[dict]:
     structured_data = _parse_pages(pages)
     return structured_data
 
+
 def fetch_information_from_notion_into_csv():
     """Isolated scrip caller to ingest all the information from Notion and export it to a CSV file."""
     dataframe = pd.DataFrame(_get_daily_habits())
     dataframe.to_csv("data/habits.csv", index=False)
     print("Exported to data/habits.csv")
+
+
+fetch_information_from_notion_into_csv()

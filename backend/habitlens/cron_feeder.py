@@ -4,6 +4,7 @@ from backend.habitlens.config import NOTION_TOKEN, PARENT_PAGE_ID
 
 notion = Client(auth=NOTION_TOKEN)
 
+
 def get_or_create_weekly_subpage(parent_id, title):
     """Search or create a subpage under the annual report page."""
     children = notion.blocks.children.list(parent_id)["results"]
@@ -19,11 +20,14 @@ def get_or_create_weekly_subpage(parent_id, title):
             {
                 "object": "block",
                 "type": "heading_1",
-                "heading_1": {"rich_text": [{"type": "text", "text": {"content": title}}]}
+                "heading_1": {
+                    "rich_text": [{"type": "text", "text": {"content": title}}]
+                },
             }
-        ]
+        ],
     )
     return new_page["id"]
+
 
 def add_text_block(page_id, text):
     notion.blocks.children.append(
@@ -32,10 +36,13 @@ def add_text_block(page_id, text):
             {
                 "object": "block",
                 "type": "paragraph",
-                "paragraph": {"rich_text": [{"type": "text", "text": {"content": text}}]}
+                "paragraph": {
+                    "rich_text": [{"type": "text", "text": {"content": text}}]
+                },
             }
-        ]
+        ],
     )
+
 
 def add_image_block(page_id, image_url):
     notion.blocks.children.append(
@@ -44,13 +51,11 @@ def add_image_block(page_id, image_url):
             {
                 "object": "block",
                 "type": "image",
-                "image": {
-                    "type": "external",
-                    "external": {"url": image_url}
-                }
+                "image": {"type": "external", "external": {"url": image_url}},
             }
-        ]
+        ],
     )
+
 
 # === Main logic ===
 def update_ai_reports(start_date, end_date, summary_text, image_url):
@@ -70,6 +75,7 @@ def update_ai_reports(start_date, end_date, summary_text, image_url):
     # Append a one-line summary to the annual report parent page
     one_liner = summary_text.splitlines()[0]  # First line only
     add_text_block(PARENT_PAGE_ID, f"{start_date} to {end_date}: {one_liner}")
+
 
 if __name__ == "__main__":
     # Demo run

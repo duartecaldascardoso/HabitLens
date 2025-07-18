@@ -40,7 +40,9 @@ def _prepare_correlation_data() -> pd.DataFrame:
     return correlation_df
 
 
-def _phrased_correlation_data(correlation_df: pd.DataFrame, target_attribute: str) -> List[str]:
+def _phrased_correlation_data(
+    correlation_df: pd.DataFrame, target_attribute: str
+) -> List[str]:
     """Generate phrases based on the correlation data for a specific attribute."""
     phrases = []
     target_correlation = correlation_df.corr()[target_attribute]
