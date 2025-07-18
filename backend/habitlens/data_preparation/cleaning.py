@@ -24,5 +24,3 @@ def get_clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
     # Add more steps here if more cleaning/feature engineering is needed. Good for now
     return cleaned_features_df
-
-get_clean_dataframe = get_clean_dataframe(dataframe)

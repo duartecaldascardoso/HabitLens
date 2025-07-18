@@ -78,6 +78,8 @@ class HabitFeatureEngineer:
             df["Sleep Hours"] = pd.to_numeric(df["Sleep Hours"], errors="coerce").fillna(0)
         if "Productivity Score" in df.columns:
             df["Productivity Score"] = pd.to_numeric(df["Productivity Score"], errors="coerce")
+        if "Nutritional Score" in df.columns:
+            df["Nutritional Score"] = pd.to_numeric(df["Productivity Score"], errors="coerce")
 
         if self.drop_raw_columns:
             drop_cols = ["Mood", "Energy Level", "Day"] + self.MULTI_HOT_COLUMNS
