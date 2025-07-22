@@ -1,13 +1,11 @@
 from pydantic import BaseModel, Field
 
 
-class SortingAlgorithm(BaseModel):
-    """The sorting algorithm obtained by invoking an LLM with the user instructions and directory summary."""
+class WeeklyOverview(BaseModel):
+    """An overview used to explain the events of the week. Used to summarize and find enhancements."""
 
-    generated_code: str = Field(description="The generated code.")
+    weekly_summary: str = Field(description="Summary of the data from the last week.")
 
-    code_explanation: str = Field(
-        description="The explanation of the sorting algorithm."
-    )
+    activity_suggestion: str = Field(description="Suggestion of an activity for the next week.")
 
-    file_name: str = Field(description="The name of the file, including the extension, where the sorting algorithm will be saved.")
+
