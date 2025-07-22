@@ -15,6 +15,8 @@ from backend.habitlens.weekly_graph.state import InputWeeklyOverviewState, Weekl
 
 load_dotenv()
 
+"""This graph will be executed once a week and will directly write to the Notion page from the user."""
+
 async def _load_and_parse_csv(state: InputWeeklyOverviewState):
     """Load and parse the weekly data CSV."""
     csv_path = Path(state.csv_path)
