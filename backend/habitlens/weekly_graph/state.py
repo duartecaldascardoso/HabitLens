@@ -2,7 +2,7 @@ from typing import Optional, List, Dict
 
 from pydantic import BaseModel
 
-from backend.habitlens.weekly_graph.schemas.sorting_algorithm import WeeklyOverview
+from backend.habitlens.weekly_graph.schemas.weekly_overview import WeeklyOverview
 
 
 class InputWeeklyOverviewState(BaseModel):

@@ -7,13 +7,13 @@ from langchain_core.messages import HumanMessage
 from langgraph.constants import END
 from langgraph.graph import StateGraph, START
 
-from backend.habitlens.config import get_chat_model
+from backend.habitlens.config import get_chat_model, PARENT_PAGE_ID
 from backend.habitlens.data_preparation.ingestion import (
     fetch_information_from_notion_into_csv,
 )
-from backend.habitlens.reporting import write_weekly_report_to_notion
-from backend.habitlens.utils import obtain_dataframe_from_path
-from backend.habitlens.weekly_graph.schemas.sorting_algorithm import WeeklyOverview
+from backend.habitlens.reporting import get_or_create_weekly_subpage, add_text_block, write_weekly_overview_to_notion
+from backend.habitlens.utils import obtain_dataframe_from_path, split_text_into_chunks
+from backend.habitlens.weekly_graph.schemas.weekly_overview import WeeklyOverview
 from backend.habitlens.weekly_graph.prompt import WEEKLY_OVERVIEW_PROMPT
 from backend.habitlens.weekly_graph.state import (
     InputWeeklyOverviewState,
@@ -33,7 +33,7 @@ load_dotenv()
 
 
 async def _ingest_notion_data(state: InputWeeklyOverviewState):
-    """Used to ingest the data from Notion and obtain the last two weeks of data."""
+    """Used to ingest the data from Notion and get the last two weeks of data."""
 
     # This makes sure that the .csv file from the user is up to date.
     csv_path = fetch_information_from_notion_into_csv(
@@ -66,22 +66,21 @@ async def _generate_weekly_overview(state: WeeklyOverviewState):
 
 
 async def _write_to_notion(state: WeeklyOverviewState):
-    """Write the generated weekly overview to Notion."""
-    summary_text = str(state.weekly_overview)
+    """Write the generated weekly overview to Notion with structured formatting."""
+    weekly_overview = state.weekly_overview
 
     today = datetime.today().date()
     start_date = today - timedelta(days=7)
     end_date = today
 
-    write_weekly_report_to_notion(
-        start_date=str(start_date),
-        end_date=str(end_date),
-        summary_text=summary_text,
-        image_urls=[],
-    )
+    # Get the page ID for the weekly report
+    week_title = f"Weekly Report – {start_date} to {end_date}"
+    page_id = get_or_create_weekly_subpage(PARENT_PAGE_ID, week_title)
+
+    # Pass the required parameters to the function
+    write_weekly_overview_to_notion(page_id=page_id,weekly_overview= weekly_overview)
 
     return {"output_success": True}
-
 
 # Build the graph
 builder = StateGraph(WeeklyOverviewState)
