@@ -182,3 +182,4 @@ cython_debug/
 /.idea
 .DS_Store
 backend/habitlens/data/habits.csv
+backend/habitlens/weekly_graph/backend/habitlens/data/habits.csv

@@ -30,7 +30,9 @@ def obtain_data_correlation_matrix(df: pd.DataFrame) -> pd.DataFrame:
 
 if __name__ == "__main__":
     dataframe = obtain_mock_dataframe()
-    phrases = phrased_correlation_insights(dataframe, target_attribute="Productivity Score")
+    phrases = phrased_correlation_insights(
+        dataframe, target_attribute="Productivity Score"
+    )
 
     for phrase in phrases:
         print(phrase)

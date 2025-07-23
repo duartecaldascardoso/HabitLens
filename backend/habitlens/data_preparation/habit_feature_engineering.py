@@ -69,20 +69,28 @@ class HabitFeatureEngineer:
 
         for col in self.MULTI_HOT_COLUMNS:
             if col in df.columns:
-                include_none = (col == "Gym")
+                include_none = col == "Gym"
                 df = self._multi_hot_encode(df, col, include_none=include_none)
 
         if "Reading" in df.columns:
             df["Reading"] = df["Reading"].astype(int)
         if "Sleep Hours" in df.columns:
-            df["Sleep Hours"] = pd.to_numeric(df["Sleep Hours"], errors="coerce").fillna(0)
+            df["Sleep Hours"] = pd.to_numeric(
+                df["Sleep Hours"], errors="coerce"
+            ).fillna(0)
         if "Productivity Score" in df.columns:
-            df["Productivity Score"] = pd.to_numeric(df["Productivity Score"], errors="coerce")
+            df["Productivity Score"] = pd.to_numeric(
+                df["Productivity Score"], errors="coerce"
+            )
         if "Nutritional Score" in df.columns:
-            df["Nutritional Score"] = pd.to_numeric(df["Productivity Score"], errors="coerce")
+            df["Nutritional Score"] = pd.to_numeric(
+                df["Productivity Score"], errors="coerce"
+            )
 
         if self.drop_raw_columns:
             drop_cols = ["Mood", "Energy Level", "Day"] + self.MULTI_HOT_COLUMNS
-            df.drop(columns=[col for col in drop_cols if col in df.columns], inplace=True)
+            df.drop(
+                columns=[col for col in drop_cols if col in df.columns], inplace=True
+            )
 
         return df

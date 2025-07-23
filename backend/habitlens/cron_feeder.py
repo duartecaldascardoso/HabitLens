@@ -1,6 +1,7 @@
-from backend.habitlens.utils import obtain_clean_dataframe, obtain_mock_dataframe
+from backend.habitlens.utils import obtain_mock_dataframe
 from backend.habitlens.reporting import update_ai_reports
 from backend.habitlens.correlation import phrased_correlation_insights
+
 
 def run_weekly_correlation_report(start_date: str, end_date: str):
     df = obtain_mock_dataframe()
@@ -15,7 +16,7 @@ Top findings:"""
         end_date=end_date,
         summary_text=summary,
         extra_paragraphs=phrases,
-        image_url=None
+        image_url=None,
     )
 
 

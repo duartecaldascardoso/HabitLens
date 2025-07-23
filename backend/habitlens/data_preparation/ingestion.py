@@ -1,3 +1,5 @@
+import os
+from pathlib import Path
 from typing import List
 
 import pandas as pd
@@ -57,11 +59,14 @@ def _get_daily_habits() -> List[dict]:
     return structured_data
 
 
-def fetch_information_from_notion_into_csv():
+def fetch_information_from_notion_into_csv(user_identifier: str = "") -> str:
     """Isolated scrip caller to ingest all the information from Notion and export it to a CSV file."""
     dataframe = pd.DataFrame(_get_daily_habits())
-    dataframe.to_csv("data/habits.csv", index=False)
-    print("Exported to data/habits.csv")
+    csv_path = f"backend/habitlens/data/habits{user_identifier}.csv"
 
+    Path(os.path.dirname(csv_path)).mkdir(parents=True, exist_ok=True)
 
-fetch_information_from_notion_into_csv()
+    dataframe.to_csv(csv_path, index=False)
+    print(f"Exported to {csv_path}")
+
+    return csv_path

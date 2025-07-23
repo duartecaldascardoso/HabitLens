@@ -6,6 +6,6 @@ class WeeklyOverview(BaseModel):
 
     weekly_summary: str = Field(description="Summary of the data from the last week.")
 
-    activity_suggestion: str = Field(description="Suggestion of an activity for the next week.")
-
-
+    activity_suggestion: str = Field(
+        description="Suggestion of an activity for the next week."
+    )

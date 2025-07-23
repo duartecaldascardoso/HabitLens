@@ -14,9 +14,7 @@ def get_or_create_weekly_subpage(parent_id, title: str) -> str:
     # Create a new subpage
     new_page = notion.pages.create(
         parent={"page_id": parent_id},
-        properties={
-            "title": [{"type": "text", "text": {"content": title}}]
-        },
+        properties={"title": [{"type": "text", "text": {"content": title}}]},
         children=[
             {
                 "object": "block",
@@ -68,7 +66,7 @@ def update_ai_reports(
     end_date: str,
     summary_text: str,
     image_url: str = None,
-    extra_paragraphs: list[str] = None
+    extra_paragraphs: list[str] = None,
 ):
     """
     Update Notion weekly and annual reports.
