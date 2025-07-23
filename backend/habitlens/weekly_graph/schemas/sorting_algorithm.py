@@ -9,3 +9,7 @@ class WeeklyOverview(BaseModel):
     activity_suggestion: str = Field(
         description="Suggestion of an activity for the next week."
     )
+
+    activity_suggestion_explanation: str = Field(
+        description="Explanation of the activity and why it would be beneficial."
+    )

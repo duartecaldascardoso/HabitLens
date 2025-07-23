@@ -22,5 +22,8 @@ def get_clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
     cleaned_features_df = _clean_habit_features(df)
 
+    # Converting Date into a datetime object
+    cleaned_features_df["Date"] = pd.to_datetime(cleaned_features_df["Date"])
+
     # Add more steps here if more cleaning/feature engineering is needed. Good for now
     return cleaned_features_df

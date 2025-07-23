@@ -4,7 +4,7 @@ from backend.habitlens.config import NOTION_TOKEN, PARENT_PAGE_ID
 notion = Client(auth=NOTION_TOKEN)
 
 
-def get_or_create_weekly_subpage(parent_id, title: str) -> str:
+def get_or_create_weekly_subpage(parent_id: str, title: str) -> str:
     """Search or create a subpage with the given title under the parent Notion page."""
     children = notion.blocks.children.list(parent_id)["results"]
     for block in children:
@@ -15,15 +15,6 @@ def get_or_create_weekly_subpage(parent_id, title: str) -> str:
     new_page = notion.pages.create(
         parent={"page_id": parent_id},
         properties={"title": [{"type": "text", "text": {"content": title}}]},
-        children=[
-            {
-                "object": "block",
-                "type": "heading_1",
-                "heading_1": {
-                    "rich_text": [{"type": "text", "text": {"content": title}}]
-                },
-            }
-        ],
     )
     return new_page["id"]
 
@@ -61,33 +52,20 @@ def add_image_block(page_id: str, image_url: str):
     )
 
 
-def update_ai_reports(
+def write_weekly_report_to_notion(
     start_date: str,
     end_date: str,
     summary_text: str,
-    image_url: str = None,
-    extra_paragraphs: list[str] = None,
+    image_urls: list[str] = None,
 ):
     """
-    Update Notion weekly and annual reports.
-    - Creates a subpage under the parent annual report
-    - Adds summary text
-    - Optionally adds image
-    - Optionally adds insights as extra paragraphs
-    - Appends one-line summary to parent page
+    Create a weekly report page under the parent page and write a summary with optional images.
     """
     week_title = f"Weekly Report – {start_date} to {end_date}"
-    weekly_page_id = get_or_create_weekly_subpage(PARENT_PAGE_ID, week_title)
+    page_id = get_or_create_weekly_subpage(PARENT_PAGE_ID, week_title)
 
-    add_text_block(weekly_page_id, summary_text)
+    add_text_block(page_id, summary_text)
 
-    if image_url:
-        add_image_block(weekly_page_id, image_url)
-
-    if extra_paragraphs:
-        add_text_block(weekly_page_id, "📊 Correlation Insights:")
-        for phrase in extra_paragraphs:
-            add_text_block(weekly_page_id, f"• {phrase}")
-
-    one_liner = summary_text.splitlines()[0]
-    add_text_block(PARENT_PAGE_ID, f"{start_date} to {end_date}: {one_liner}")
+    if image_urls:
+        for url in image_urls:
+            add_image_block(page_id, url)
