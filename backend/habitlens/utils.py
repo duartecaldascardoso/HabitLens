@@ -103,7 +103,10 @@ def split_text_into_chunks(text, max_length=1900):
                 current_chunk = paragraph
             else:
                 # Handle a case where a single paragraph is longer than max_length
-                para_chunks = [paragraph[i:i + max_length] for i in range(0, len(paragraph), max_length)]
+                para_chunks = [
+                    paragraph[i : i + max_length]
+                    for i in range(0, len(paragraph), max_length)
+                ]
                 chunks.extend(para_chunks[:-1])
                 current_chunk = para_chunks[-1]
         else:

@@ -1,5 +1,5 @@
 from notion_client import Client
-from backend.habitlens.config import NOTION_TOKEN, PARENT_PAGE_ID
+from backend.habitlens.config import NOTION_TOKEN
 from backend.habitlens.utils import split_text_into_chunks
 from backend.habitlens.weekly_graph.schemas.weekly_overview import WeeklyOverview
 
@@ -60,7 +60,15 @@ def add_text_block(page_id: str, text: str):
 def write_weekly_overview_to_notion(page_id: str, weekly_overview: WeeklyOverview):
     """Write the weekly overview to a Notion page with consistent section formatting."""
 
-    add_text_block_with_title(page_id, "📊 Weekly Summary", weekly_overview.weekly_summary)
-    add_text_block_with_title(page_id, "🔍 Key Observations", weekly_overview.key_observations)
-    add_text_block_with_title(page_id, "🌱 Areas for Improvement", weekly_overview.improvement_areas)
-    add_text_block_with_title(page_id, "💡 Recommended Habits", weekly_overview.habit_recommendations)
+    add_text_block_with_title(
+        page_id, "📊 Weekly Summary", weekly_overview.weekly_summary
+    )
+    add_text_block_with_title(
+        page_id, "🔍 Key Observations", weekly_overview.key_observations
+    )
+    add_text_block_with_title(
+        page_id, "🌱 Areas for Improvement", weekly_overview.improvement_areas
+    )
+    add_text_block_with_title(
+        page_id, "💡 Recommended Habits", weekly_overview.habit_recommendations
+    )

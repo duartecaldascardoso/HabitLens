@@ -11,8 +11,11 @@ from backend.habitlens.config import get_chat_model, PARENT_PAGE_ID
 from backend.habitlens.data_preparation.ingestion import (
     fetch_information_from_notion_into_csv,
 )
-from backend.habitlens.reporting import get_or_create_weekly_subpage, add_text_block, write_weekly_overview_to_notion
-from backend.habitlens.utils import obtain_dataframe_from_path, split_text_into_chunks
+from backend.habitlens.reporting import (
+    get_or_create_weekly_subpage,
+    write_weekly_overview_to_notion,
+)
+from backend.habitlens.utils import obtain_dataframe_from_path
 from backend.habitlens.weekly_graph.schemas.weekly_overview import WeeklyOverview
 from backend.habitlens.weekly_graph.prompt import WEEKLY_OVERVIEW_PROMPT
 from backend.habitlens.weekly_graph.state import (
@@ -78,9 +81,10 @@ async def _write_to_notion(state: WeeklyOverviewState):
     page_id = get_or_create_weekly_subpage(PARENT_PAGE_ID, week_title)
 
     # Pass the required parameters to the function
-    write_weekly_overview_to_notion(page_id=page_id,weekly_overview= weekly_overview)
+    write_weekly_overview_to_notion(page_id=page_id, weekly_overview=weekly_overview)
 
     return {"output_success": True}
+
 
 # Build the graph
 builder = StateGraph(WeeklyOverviewState)
