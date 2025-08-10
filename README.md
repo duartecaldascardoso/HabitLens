@@ -5,3 +5,5 @@ Machine Learning project to interact with a Notion database.
 - Habit prediction
 - Day type classification
 - Data visualization
+
+![ideation.png](ideation.png)
