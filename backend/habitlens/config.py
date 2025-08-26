@@ -11,7 +11,7 @@ MOCK_HABITS_PATH = os.getenv("MOCK_HABITS_PATH")
 HABITS_PATH = os.getenv("HABITS_PATH")
 
 
-def get_chat_model(model_name: str = "gpt-4o-mini"):
+def get_chat_model(model_name: str = "openai:gpt-5"):
     """Returns a LangChain chat model initialized with the API key from the environment."""
     load_dotenv()
     api_key = os.getenv("API_KEY")

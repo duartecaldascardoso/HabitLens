@@ -39,6 +39,7 @@ async def _ingest_notion_data(state: InputWeeklyOverviewState):
     """Used to ingest the data from Notion and get the last two weeks of data."""
 
     # This makes sure that the .csv file from the user is up to date.
+    # Consider if this will make sense once the Notion page has lots of data.
     csv_path = fetch_information_from_notion_into_csv(
         user_identifier=state.user_identifier
     )
