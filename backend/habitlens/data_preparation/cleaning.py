@@ -1,12 +1,8 @@
 import pandas as pd
 
-from backend.habitlens.config import HABITS_PATH, MOCK_HABITS_PATH
 from backend.habitlens.data_preparation.habit_feature_engineering import (
     HabitFeatureEngineer,
 )
-
-data_source = [HABITS_PATH, MOCK_HABITS_PATH]
-dataframe = pd.read_csv(data_source[1])
 
 
 def _clean_habit_features(df: pd.DataFrame) -> pd.DataFrame:

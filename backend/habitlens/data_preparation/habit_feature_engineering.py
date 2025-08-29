@@ -84,7 +84,7 @@ class HabitFeatureEngineer:
             )
         if "Nutritional Score" in df.columns:
             df["Nutritional Score"] = pd.to_numeric(
-                df["Productivity Score"], errors="coerce"
+                df["Nutritional Score"], errors="coerce"
             )
 
         if self.drop_raw_columns:
