@@ -72,8 +72,7 @@ def generate_mock_data(num_days=3650):
 
 if __name__ == "__main__":
     df = generate_mock_data(3650)
-    df.to_csv(
-        "/Users/duarte/Documents/Dev/HabitTrackerML/backend/habitlens/data/mock_habits.csv",
-        index=False,
-    )
-    print("Mock data generated and saved. Path: data/mock_habits.csv")
+    # Use relative path from project root
+    output_path = "backend/habitlens/data/mock_habits.csv"
+    df.to_csv(output_path, index=False)
+    print(f"Mock data generated and saved. Path: {output_path}")

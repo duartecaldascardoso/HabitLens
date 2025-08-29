@@ -5,9 +5,6 @@ import pandas as pd
 from backend.habitlens.config import MOCK_HABITS_PATH, HABITS_PATH
 from backend.habitlens.data_preparation.cleaning import get_clean_dataframe
 
-data_source = [HABITS_PATH, MOCK_HABITS_PATH]
-dataframe = pd.read_csv(data_source[1])
-
 
 def extract_property_value(prop):
     """Helper to safely extract a Notion property value. Properties can be of various types and unsafe to access directly."""
